@@ -12,8 +12,8 @@
 # ╚═════╝░░╚═════╝░╚═════╝░░╚════╝░
 # sudo ./deploy.sh
 
-docker build -t apigateway-image -f Dockerfile .
-docker run -d -p 82:80 --name apigateway-contenedor apigateway-image
+docker build -t jwt-image -f Dockerfile .
+docker run -d -p 82:80 --name jwt-contenedor jwt-image
 docker images
 docker ps -a
 
