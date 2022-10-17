@@ -12,8 +12,8 @@
 # ╚═════╝░░╚═════╝░╚═════╝░░╚════╝░
 # sudo ./deploy.sh
 
-docker build -t jwt-image-ofi -f Dockerfile .
-docker run -d -p 83:80 --name jwt-contenedor-ofi jwt-image-ofi
+docker build -t jwt-image-ofi-1 -f Dockerfile .
+docker run -d -p 84:80 --name jwt-contenedor-ofi-1 jwt-image-ofi-1
 docker images
 docker ps -a
 

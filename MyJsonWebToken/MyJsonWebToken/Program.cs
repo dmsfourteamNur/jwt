@@ -1,3 +1,5 @@
+using MyJsonWebToken;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,7 +16,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.
+ 
 }
 
 app.UseHttpsRedirection();
@@ -23,15 +25,14 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-//  var host = new WebHostBuilder()
-//             // .UseKestrel()
+   var host = new WebHostBuilder()
+             // .UseKestrel()
 //             // .UseContentRoot(Directory.GetCurrentDirectory())
 //             // .UseIISIntegration()
-//             .UseStartup<Startup>()
-//             .UseUrls("http://*:80")
-//             .Build();
-
-//         host.Run();
+             .UseStartup<Startup>()
+ .UseUrls("http://*:80")
+.Build();
+          host.Run();
 
 
 app.Run();
