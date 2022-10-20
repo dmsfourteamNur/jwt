@@ -72,3 +72,4 @@ C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\n
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\MyJsonWebToken.pdb
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\MyJsonWebToken.genruntimeconfig.cache
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\ref\MyJsonWebToken.dll
+C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\bin\Release\net6.0\Docker.DotNet.dll

@@ -25,14 +25,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-   var host = new WebHostBuilder()
-             // .UseKestrel()
-//             // .UseContentRoot(Directory.GetCurrentDirectory())
-//             // .UseIISIntegration()
-             .UseStartup<Startup>()
- .UseUrls("http://*:80")
-.Build();
-          host.Run();
-
+ 
 
 app.Run();

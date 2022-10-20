@@ -5,6 +5,7 @@ C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\n
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\MyJsonWebToken.deps.json
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\MyJsonWebToken.runtimeconfig.json
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\MyJsonWebToken.pdb
+C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\Docker.DotNet.dll
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\JWT.dll
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\alvaro\Documents\GitHub\jwt\MyJsonWebToken\MyJsonWebToken\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll

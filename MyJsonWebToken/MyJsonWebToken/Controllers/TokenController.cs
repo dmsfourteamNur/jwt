@@ -30,7 +30,6 @@ namespace MyJsonWebToken.Controllers
             {
                 IsAdmin = true;
                 return new ObjectResult(GenerateToken(username, "admin"));
-
             }
             else
               if (username == "alvaro" && password == "alvaro")
@@ -43,44 +42,36 @@ namespace MyJsonWebToken.Controllers
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "user"));
-
             }
             else if (username == "liceth" && password == "liceth")
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "rrhh"));
-
             }
             else if (username == "ricky" && password == "ricky")
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "admin"));
-
             }
             else if (username == "edson" && password == "edson")
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "operador"));
-
             }
             else if (username == "venta" && password == "venta")
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "vendedor"));
-
             }
             else if (username == "aeronave" && password == "aeronave")
             {
                 IsAdmin = false;
                 return new ObjectResult(GenerateToken(username, "admin"));
-
             }
             else
             {
                 return BadRequest();
-
             }
-
         }
 
         private string GenerateToken(string username, string tipo)
